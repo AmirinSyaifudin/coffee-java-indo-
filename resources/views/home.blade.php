@@ -1,8 +1,8 @@
-@extends('frontend.templates.sites')
+{{-- @extends('frontend.templates.sites') --}}
 
 
 
-{{-- @extends('layouts.app')
+@extends('layouts.app')
 
 @section('content')
 <div class="container">
@@ -24,4 +24,4 @@
         </div>
     </div>
 </div>
-@endsection --}}
+@endsection

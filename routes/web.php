@@ -18,7 +18,11 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', 'Frontend\SiteController@home');
 
 
-// Route::get('/drink', 'DrinkController@index');
+
+Route::get('/drink', 'Frontend\SiteController@drink');
+Route::get('/food', 'Frontend\SiteController@food');
+Route::get('/spesial', 'Frontend\SiteController@spesial');
+//Route::get('/drink', 'Frontend\SiteController@drink');
 // Route::get('/drink/{drink}', 'Frontend\\DrinkController@index');
 Route::get('/drink/{drink}', 'Frontend\\DrinkController@index');
 Route::get('/food/{food}', 'Frontend\\FoodController@index');

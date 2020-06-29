@@ -17,17 +17,17 @@
             </div>
             <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
                 <div class="text-sm lg:flex-grow">
-                    <a href="#about" class="block mt-4  font-bold lg:inline-block lg:mt-0 text-blue hover:text-gray-900 text-lg mr-4">
+                    <a href="/drink" class="block mt-4  font-bold lg:inline-block lg:mt-0 text-blue hover:text-gray-900 text-lg mr-4">
                         MENU MINUMAN
                     </a>
-                    <a href="#skill" class="block mt-4  font-bold lg:inline-block lg:mt-0 text-blue hover:text-gray-900 text-lg mr-4">
+                    <a href="/food" class="block mt-4  font-bold lg:inline-block lg:mt-0 text-blue hover:text-gray-900 text-lg mr-4">
                         MENU MAKANAN
                     </a>
-                    <a href="#recent" class="block mt-4  font-bold lg:inline-block lg:mt-0 text-blue hover:text-gray-900 text-lg mr-4">
+                    <a href="/spesial" class="block mt-4  font-bold lg:inline-block lg:mt-0 text-blue hover:text-gray-900 text-lg mr-4">
                         MENU SPESIAL
                     </a>
 
-                    <a href="#contact" class="block mt-4  font-bold lg:inline-block lg:mt-0 text-blue hover:text-gray-900 text-lg mr-4">
+                    <a href="{{ route('login')}}" class="block mt-4  font-bold lg:inline-block lg:mt-0 text-blue hover:text-gray-900 text-lg mr-4">
                         ADMIN
                     </a>
                 </div>
@@ -40,7 +40,7 @@
                     {{--  <a href="#contact" class="inline-block  font-bold text-sm px-4 py-2 rounded text-blue border border-gray-900 hover:border-transpaent hover:text-white hover:bg-indigo-700 mt-4 lg:mt-0">
                         PENGUNJUNG
                     </a>  --}}
-                    <a href="#contact"  class="bg-blue-500 hover:bg-blue-700 text-white font-bold px-4 py-2 shadow-md rounded-tr-lg rounded-bl-lg gradient-ungu">
+                    <a href="{{ route('register')}}"  class="bg-blue-500 hover:bg-blue-700 text-white font-bold px-4 py-2 shadow-md rounded-tr-lg rounded-bl-lg gradient-ungu">
                         PENGUNJUNG
                     </a>
                 </div>

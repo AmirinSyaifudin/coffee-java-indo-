@@ -1,33 +1,33 @@
-<html>
-<head>
-    @include('frontend.templates.layouts.head')
-</head>
+@extends('layouts.frontend')
 
-<body>
-    <!--section navbar-->
-            @include('frontend.templates.layouts.navigation')
-    <!-- end navbar -->
+@section('content')
 
-    <!-- section about -->
-           @include('frontend.templates.layouts.sidebar')
-    <!-- end about me -->
 
-    <!-- section skill framework -->
-    {{-- @include('frontend.templates.layouts.skill') --}}
-    <!-- end skill framework -->
+<section id="about" class="w-screen mx-auto py-2 gradient">
+    <!-- sambutan -->
+    <div class="px-16 py-3 text-center text-blue">
+        <h1 class="w-full text-5xl font-bold ">COFFEE JAVA</h1>
 
-    <!-- section my recent work -->
-        @include('frontend.templates.layouts.react')
-    <!-- end my recent work -->
+        {{-- <h2 class="text-3xl font-bold mb-2 ">
+            COFFEE JAVA
+        </h2> --}}
+        <div class="mb-4">
+            <div class="bg-pink-500 w-2/3 md:w-1/6 opacity-75 rounded h-1 mx-auto"></div>
+        </div>
+        <h3 class="text-lg font-bold mb-2">
+           NIKMATI COFFEE MU NIKMATI HARI MU
+        </h3>
+        <div class="w-full">
+            <div class="px-4 py-4 ">
+                <!-- source image baby.jpg didownload dari situs unsplash.com, koleksi Troy T - @ttcollect -->
+                <img src="img/kopi.jpg" class="w-fill rounded-lg mx-auto text-center">
+            </div>
+        </div>
+    </div>
 
-    <!-- section contact -->
-    {{-- @include('frontend.templates.layouts.contact') --}}
-    </section>
-    <!-- end section contact me -->
+    <!-- box portofolio -->
 
-    <!-- section footer -->
-          @include('frontend.templates.layouts.footer')
-    <!-- end footer -->
-</body>
+</section>
 
-</html>
+
+@endsection
